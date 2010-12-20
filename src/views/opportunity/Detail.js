@@ -46,7 +46,7 @@ Ext.namespace("Mobile.SalesLogix.Opportunity");
             'EstimatedClose',
             'LeadSource/Description',
             'Owner/OwnerDescription',
-            'Reseller/AccountName',
+            // 'Reseller/AccountName', // todo: removed to correct issue with SData for beta 1
             'SalesPotential',
             'Stage',
             'Status',
