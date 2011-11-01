@@ -37,6 +37,7 @@ define('Mobile/SalesLogix/Views/PickList', ['Sage/Platform/Mobile/List'], functi
         resourceKind: 'picklists',
         resourceProperty: 'items',
         listSelectedClass: 'list-item-selected',
+        isHorizontalSlide: false,
 
         multi: false,
         previousSelections: null,

@@ -98,6 +98,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Account.Edit());
                 this.registerView(new Mobile.SalesLogix.Views.Account.List({
                     id: 'account_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -111,6 +112,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Contact.Edit());
                 this.registerView(new Mobile.SalesLogix.Views.Contact.List({
                     id: 'contact_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -119,6 +121,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Event.Detail());
                 this.registerView(new Mobile.SalesLogix.Views.Event.List({
                     id: 'event_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -127,6 +130,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Opportunity.Detail());
                 this.registerView(new Mobile.SalesLogix.Views.Opportunity.List({
                     id: 'opportunity_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -135,6 +139,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Lead.Detail());
                 this.registerView(new Mobile.SalesLogix.Views.Lead.List({
                     id: 'lead_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -143,6 +148,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Ticket.Edit());
                 this.registerView(new Mobile.SalesLogix.Views.Ticket.List({
                     id: 'ticket_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
                 this.registerView(new Mobile.SalesLogix.Views.TicketActivity.List());
@@ -151,6 +157,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.TicketActivity.RateLookup());
                 this.registerView(new Mobile.SalesLogix.Views.TicketActivity.List({
                     id: 'ticket-activity_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -160,6 +167,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.Activity.TypesList());
                 this.registerView(new Mobile.SalesLogix.Views.Activity.List({
                     id: 'activity_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 
@@ -168,6 +176,7 @@
                 this.registerView(new Mobile.SalesLogix.Views.History.Edit());
                 this.registerView(new Mobile.SalesLogix.Views.History.List({
                     id: 'history_related',
+                    isHorizontalSlide:false,
                     expose: false
                 }));
 

@@ -15,6 +15,7 @@ define('Mobile/SalesLogix/Views/SelectList', ['Sage/Platform/Mobile/List'], func
         //View Properties
         id: 'select_list',
         expose: false,
+        isHorizontalSlide: false,
 
         refreshRequiredFor: function(options) {
             if (this.options)

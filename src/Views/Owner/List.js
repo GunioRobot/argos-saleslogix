@@ -23,6 +23,7 @@ define('Mobile/SalesLogix/Views/Owner/List', ['Sage/Platform/Mobile/List'], func
             'OwnerDescription'
         ],
         resourceKind: 'owners',
+        isHorizontalSlide:false,
 
         formatSearchQuery: function(query) {
             return dojo.string.substitute('upper(OwnerDescription) like "%${0}%"', [this.escapeSearchQuery(query.toUpperCase())]);

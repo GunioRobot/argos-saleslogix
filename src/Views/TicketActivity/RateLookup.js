@@ -26,6 +26,7 @@ define('Mobile/SalesLogix/Views/TicketActivity/RateLookup', ['Sage/Platform/Mobi
             'TypeDescription'
         ],
         resourceKind: 'ticketActivityRates',
+        isHorizontalSlide: false,
 
         formatSearchQuery: function(query) {
             return dojo.string.substitute('upper(RateTypeCode) like "%${0}%"', [this.escapeSearchQuery(query.toUpperCase())]);

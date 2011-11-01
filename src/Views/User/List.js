@@ -28,6 +28,7 @@ define('Mobile/SalesLogix/Views/User/List', ['Sage/Platform/Mobile/List'], funct
             'UserInfo/UserName'
         ],
         resourceKind: 'users',
+        isHorizontalSlide:false,
 
         formatSearchQuery: function(query) {
             return dojo.string.substitute('upper(UserInfo.UserName) like "%${0}%"', [this.escapeSearchQuery(query.toUpperCase())]);

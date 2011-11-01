@@ -27,6 +27,7 @@ define('Mobile/SalesLogix/Views/Address/Edit', ['Sage/Platform/Mobile/Edit'], fu
 
         //View Properties
         id: 'address_edit',
+        isHorizontalSlide: false,
 
         formatDependentPicklist: function(format) {
             return dojo.string.substitute(format, [this.options.entityName]);

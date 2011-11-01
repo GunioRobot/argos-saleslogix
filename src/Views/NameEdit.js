@@ -12,6 +12,7 @@ define('Mobile/SalesLogix/Views/NameEdit', ['Sage/Platform/Mobile/Edit'], functi
 
         //View Properties
         id: 'name_edit',
+        isHorizontalSlide: false,
 
         constructor: function(o) {
             dojo.mixin(this, o, {

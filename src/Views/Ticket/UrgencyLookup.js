@@ -23,6 +23,7 @@ define('Mobile/SalesLogix/Views/Ticket/UrgencyLookup', ['Sage/Platform/Mobile/Li
             'UrgencyCode'
         ],
         resourceKind: 'urgencies',
+        isHorizontalSlide: false,
 
         formatSearchQuery: function(query) {
             return dojo.string.substitute('upper(Description) like "%${0}%"', this.escapeSearchQuery(query.toUpperCase()));

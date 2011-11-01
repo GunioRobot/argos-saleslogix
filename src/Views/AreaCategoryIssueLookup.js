@@ -27,6 +27,7 @@ define('Mobile/SalesLogix/Views/AreaCategoryIssueLookup', ['Sage/Platform/Mobile
             'Issue'
         ],
         resourceKind: 'areaCategoryIssues',
+        isHorizontalSlide: false,
 
         show: function(options) {
             this.active = options.where;

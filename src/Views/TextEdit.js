@@ -5,6 +5,7 @@ define('Mobile/SalesLogix/Views/TextEdit', ['Sage/Platform/Mobile/Edit'], functi
         id: 'text_edit',
         expose: false,
         titleText: 'Text',
+        isHorizontalSlide: false,
 
         createLayout: function() {
             return this.layout || (this.layout = [{
